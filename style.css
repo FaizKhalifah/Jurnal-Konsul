@@ -129,6 +129,7 @@ aside img{
     transition: 0.3s;
     cursor: pointer;
     border-radius: 1.5rem;
+    box-shadow:  3px 3px 10px rgb(29, 29, 29);
 }
 
 
@@ -153,7 +154,6 @@ aside img{
 }
 
 .testimoni{
-   
     display: flex;
     flex-flow: row wrap;
     gap: 2rem;
@@ -171,6 +171,7 @@ aside img{
     border-radius: 2rem;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow:  3px 3px 10px rgb(29, 29, 29);
 }
 
 .testimoni article:hover{
