@@ -39,19 +39,100 @@ nav a:hover{
 main{
     background-color: #2D3142;
     color: white;
-    display: flex;
-    justify-content: center;
+    
 }
 
 .container1{
-    margin: 2rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
+
+.container1 div{
+    margin-top: 2rem;
+}
 .containerSlogan{
     width: 25%;
     text-align: left;
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+ .container2 aside{
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.container3{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 div{
+    padding: 2rem;
+    width: 90%;
+}
+.deskripsi{
+    width: 65%;
+    background-color: #4F5D75;
+    text-align: center;
+    border-radius: 2rem;
+}
+aside{
+    width: 35%;
+    text-align: center;
+}
+
+aside article{
+    margin: 1.5rem;
+}
+
+aside img{
+    max-width: 100%;
+    height: auto;
+}
+
+.layanan{
+    background-color: #4F5D75;
+    border-radius: 2rem;
+    margin: 2rem;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.kumpulanLayanan{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.kumpulanLayanan article{
+    color: rgb(255, 245, 245);
+    background-color: #adbca5;
+    padding: 2rem;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 1.5rem;
+}
+
+
+
+.kumpulanLayanan article:hover{
+    transform: scale(1.1,1.1);
 }
