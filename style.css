@@ -37,9 +37,10 @@ nav a:hover{
 }
 
 main{
+    width: 100%;
     background-color: #2D3142;
     color: white;
-    
+    padding: 1.5rem;
 }
 
 .container1{
@@ -57,6 +58,10 @@ main{
     width: 25%;
     text-align: left;
     
+}
+
+.containerGambar{
+    max-width: 100%;
 }
 
 .container2{
@@ -96,6 +101,7 @@ aside{
 
 aside article{
     margin: 1.5rem;
+    cursor: pointer;
 }
 
 aside img{
@@ -131,8 +137,6 @@ aside img{
     border-radius: 1.5rem;
     box-shadow:  3px 3px 10px rgb(29, 29, 29);
 }
-
-
 
 .kumpulanLayanan article:hover{
     transform: scale(1.1,1.1);
@@ -176,4 +180,63 @@ aside img{
 
 .testimoni article:hover{
     transform: scale(1.1,1.1);
+}
+
+footer{
+    padding: 2rem;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 720px){
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .containerGambar{
+        width: 90%;
+    }
+
+    .containerGambar img{
+        width: 100%;
+        height: auto;
+    }
+
+    .containerSlogan{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container3{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kumpulanLayanan{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    aside{
+        width: 100%;
+        text-align: center;
+    }
 }
